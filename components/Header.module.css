@@ -1,0 +1,19 @@
+
+.jumbotron {
+    background-image: url('../static/images/jumbotron.jpg');
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headingDiv {
+    margin: 1rem 0;
+}
+
+.h1 {
+    font-size: 50px;
+    color: #ffffff;
+}
+

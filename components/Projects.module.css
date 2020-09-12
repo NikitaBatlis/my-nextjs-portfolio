@@ -1,0 +1,62 @@
+.portfolio {
+    padding: 6rem 0;
+    background-color: #f8f9fa!important;
+}
+
+.a {
+    color: #17a2b8!important;
+}
+
+.a {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #17a2b8!important;
+}
+
+
+.portfolioItem {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+}
+
+.caption {
+    transition: clip-path .25s ease-out, background-color .7s;
+    clip-path: inset(0);
+}
+
+.caption {
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33,37,41,.2);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.img {
+    filter: blur(4px) ;
+    max-width: 100%;
+    height: auto;
+    -webkit-transition: -webkit-clip-path .25s ease-out;
+    -webkit-clip-path: inset(-1px);
+    clip-path: inset(-1px);
+
+}
+
+.captionContent {
+    transition: opacity .25s;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+}
+
+.captionContent {
+    color: #fff;
+    margin: auto 2rem 2rem;
+}
